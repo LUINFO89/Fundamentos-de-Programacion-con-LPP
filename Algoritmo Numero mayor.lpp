@@ -1,0 +1,31 @@
+// algoritmo que lee dos nuneros enteros y como resultado imprime el valor del numero mayor
+// si son iguales imprmie el valor de los mismos
+//si condicion entonces
+// acciones verdadedo
+//sino
+// accion falso
+//fin si
+
+Entero num1,num2,mayor
+Inicio
+//entrada de datos
+
+	escriba "Ingresa numero uno:"
+	lea num1
+	escriba "ingrese otro numero:"
+	lea num2
+	//mostramos los datos
+	
+	Si(num1 = num2) Entonces
+		escriba "los numeros son iguales"
+	Sino
+		si (num1>num2) entonces
+			mayor<-num1
+		sino
+			mayor<-num2
+		fin si
+		
+		Escriba "El numero Mayor es :",mayor
+Fin si
+	
+Fin

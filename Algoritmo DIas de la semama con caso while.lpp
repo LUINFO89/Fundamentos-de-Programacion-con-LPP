@@ -1,0 +1,23 @@
+// programa que imprime los dias de la suemna 
+// asumiendo que los dias estan enumerados de 1 a 7 incinado de lunes adomingio
+
+Entero dia
+Caracter detener
+inicio
+	Escriba"Ingrese un numero de 1 a 7:"
+	lea dia
+	Caso dia /*Variable*/
+	/*Bloques del Caso*/
+	1: Escriba "El dia corresponde a lunes:"
+	2: Escriba "El dia Martes"
+	3: Escriba "el dia Miercoles"
+	4: Escriba "El dia Juves"
+	5: Escriba " El dia viernes"
+	6: Escriba "El dia sabado"
+	7: Escriba "El dia domingo"
+	sino :Escriba "el numero no corresponde a  ningun dia"
+	
+	
+	Fin Caso
+	lea detener
+fin

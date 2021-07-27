@@ -1,0 +1,42 @@
+// algoritmo ciclo para 
+// este algoritmo lee 5  numeros enteros como resultado se deben imprimir
+// la suma de los numeros ingresados , 
+// la cantidad de numeros pares e ingresados los impares
+
+// Variables
+
+entero numero, suma , impares , pares, residuo,i
+caracter detener
+
+Inicio
+	//Proceso de entrada
+	 suma <- 0
+	 impares <- 0
+	 pares <- 0
+	 
+	
+	para i<- 1 hasta 5 haga
+		Escriba "Ingresa un numero"
+		Lea numero
+		suma <-  suma+numero
+		// se realiza un acumulador de numeros y se realiza la suma
+		residuo <-numero mod 2
+		//numero != 2
+		si (residuo  = 0 )
+		entonces pares <- pares +1
+			// acumula el numero para en la variable par
+		sino // acumula en la variable impar 
+			impares <-impares + 1
+		fin si
+	fin para
+	// Mostramos los valores 
+	Escriba "la sumna de los numeros digitados es:",suma
+	llamar nueva_linea // salto de linea
+	Escriba "El numero de impares es :", impares
+	llamar nueva_linea // salto de linea
+	Escriba "El numero de impares es :", pares
+	llamar nueva_linea // salto de linea
+	lea detener
+	 
+
+Fin 
