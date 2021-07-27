@@ -1,0 +1,23 @@
+//Ejercicios de funciones que crearemos 
+//Algoritmo que calcula el area de un triangulo rectangulo 
+// que recibe como parametros la base del triangulo y retorna el area
+real area , base , altura
+caracter detener
+funcion calculararea(real base,real altura):real
+real resultado
+inicio
+	resultado <- base * altura / 2
+	retorne resultado
+fin
+
+inicio
+	Escriba "Ingrese la base del triangulo"
+	lea base
+	Escriba "ingrese la altura del triangulo"
+	lea altura
+	
+	area<- calculararea(base,altura)
+	escriba "El area del triangulo es :",area
+	lea detener
+
+fin
