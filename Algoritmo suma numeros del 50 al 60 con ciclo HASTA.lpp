@@ -1,0 +1,28 @@
+//vamos a ralizar un ejercicio para utilizar una estructurea repetitiva conjocida como repita hasta
+// Hacer un algoritmo que pida al usuario que ingrse numeros hasta que se ingrese unn nbumero superior a 100.
+//el algoritmo debe imprimir la suma de los numeros ingresados comprendidos entre 50 y 60
+
+
+// Definimos las variables 
+Entero numero, suma
+Caracter detener
+
+inicio
+	//inicializamos la variabñe 
+	suma<-0
+	// se incializa suma ya que va a aculumar el valor de las operaciones
+		Repita
+			Escriba "ingrese un numero2"
+			lea numero
+			si ((numero > 49) y (numero <61))entonces
+				suma <- suma + numero
+			fin si		/*Instrucciones*/
+		Hasta(numero > 100)	/*Condicion*/
+		
+		Escriba "La suma de los numeros ingresados entre el rango de 50 a 61 es:", suma
+
+		
+		 	
+
+
+fin
